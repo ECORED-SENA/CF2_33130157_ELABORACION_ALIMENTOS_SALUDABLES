@@ -2,13 +2,40 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 45%
+    left: 10%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    bottom: 15%
+    right: 13%
+  &-3
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    right: 5%
+    top: 20%
+
+.banner-interno
+  height: 150px
+  .banner-interno__fondo
+    background-position: right top
+    background-image: url(../assets/curso/fondo_tema.png) !important
+
+//Banners
+.banner-principal__row
+  .banner-principal__img
+    padding-top: 1rem !important
+    padding-bottom: 1rem !important
+    img
+      margin-left: auto
+      max-width: 392px
+.banner-principal .tarjeta
+  background-position: inherit
+  @media screen and (max-width: $bp-max-md)
+    background-image: url(../assets/curso/portada/fondo-banner-principal-md.png) !important
+  @media screen and (max-width: $bp-max-xs)
+    background-image: url(../assets/curso/portada/fondo-banner-principal-movil.png) !important
+
 
 
 @keyframes float1
@@ -18,3 +45,199 @@
   100%
     transform: translateY(0px)
 
+//colores
+.fondo-color-sistema-h
+  background-color: $color-sistema-h
+.fondo-color-sistema-i
+  background-color: $color-sistema-i
+.fondo-color-sistema-j
+  background-color: rgba($color-sistema-j,0.95)
+.fondo-color-sistema-k
+  background-color: $color-sistema-k
+.fondo-color-sistema-l
+  background-color: $color-sistema-l
+.fondo-color-sistema-m
+  background-color: $color-sistema-m
+.fondo-color-sistema-n
+  background-color: $color-sistema-n
+.fondo-color-sistema-o
+  background-color: $color-sistema-o
+.fondo-color-sistema-p
+  background-color: $color-sistema-p
+
+.c-color-sistema-m
+  color: $color-sistema-m
+.c-color-primario
+  color: $color-primario
+
+//bordes
+.no-borde
+  border: none !important
+.borde-4
+  border-radius: 4px
+.borde-5
+  border-radius: 5px
+.borde-6
+  border-radius: 6px
+.borde-8
+  border-radius: 8px
+.borde-9
+  border-radius: 9px
+.borde-10
+  border-radius: 10px
+.borde-11
+  border-radius: 11px
+.borde-12
+  border-radius: 12px
+.borde-14
+  border-radius: 14px
+.borde-15
+  border-radius: 15px
+.borde-16
+  border-radius: 16px
+.borde-17
+  border-radius: 17px
+.borde-18
+  border-radius: 18px
+.borde-20
+  border-radius: 20px
+.borde-22
+  border-radius: 22px
+.borde-23
+  border-radius: 23px
+.borde-27
+  border-radius: 27px
+.borde-30
+  border-radius: 30px
+.borde-31
+  border-radius: 31px
+
+//fondos
+.fondo-personalizado-1
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 108%
+    left: -4%
+    @media screen and (max-width: $bp-max-xl)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-lg)
+      width: 112%
+      left: -6%
+    @media screen and (max-width: $bp-max-md)
+      width: 116%
+      left: -8%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: 520px)
+      width: 120%
+      left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-repeat: no-repeat
+    background-position: top
+    background-size: cover
+  &.no-tam-full
+    &:before
+      left: 0 !important
+      width: 100% !important
+  &.pos-bottom
+    &:before
+      background-position: bottom
+  &.size-full
+    &:before
+      background-size: 100%
+    &.med
+      @media screen and (max-width: $bp-max-md)
+        &:before
+          background-size: cover
+  &.pos-center
+    &:before
+      background-position: center
+  &.f1
+    &:before
+      background: rgb(239,250,244)
+      background: linear-gradient(180deg, rgba(239,250,244,0) 0%, rgba(243,250,233,1) 25%, rgba(243,250,233,1) 75%, rgba(239,250,244,0) 100%)
+  &.f2
+    &:before
+      background-image: url(../assets/curso/temas/20.png)
+  &.f3
+    &:before
+      background-image: url(../assets/curso/temas/21.png)
+      border-radius: 20px
+  &.f4
+    &:before
+      background: rgb(239,250,244)
+      background: linear-gradient(180deg, rgba(239,250,244,0) 0%, rgba(254,246,228,1) 25%, rgba(243,250,233,0.3533788515406162) 75%, rgba(254,246,228,0) 100%)
+  &.f5
+    &:before
+      background: rgb(239,250,244)
+      background: linear-gradient(180deg, rgba(239,250,244,0) 0%, rgba(255,253,250,1) 25%, rgba(255,250,240,1) 75%, rgba(239,250,244,0) 100%)
+  &.f6
+    &:before
+      background: rgb(239,250,244)
+      background: linear-gradient(180deg, rgba(239,250,244,0) 0%, rgba(243,250,233,1) 25%, rgba(243,250,233,1) 75%, rgba(239,250,244,0) 100%)
+  &__contenido
+    position: relative
+
+//textos
+.fs-p-1
+  font-size: 11px
+
+.sombra-p-1
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16)
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16)
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16)
+
+.padding-start-p-1
+  border-left: 1px solid $white
+
+//titulos
+.titulo-decorativo
+  position: relative
+  display: inline-flex
+  align-items: flex-end
+  padding-left: 0.7rem
+  &::before
+    content: ""
+    position: absolute
+    background-color: $color-acento-contenido
+    top: 22px
+    bottom: 0px
+    left: 0px
+    right: 0
+    z-index: 0
+    border-radius: 22px
+  .cont-text 
+    position: relative
+    h3
+      color: $white
+      margin: 0
+      margin-left: 0.5rem
+      margin-right: 1.5rem
+      padding-bottom: 0.5rem
+      padding-top: 1rem
+      @media screen and (max-width: $bp-max-xs)
+        margin-right: 0.5rem
+
+  .cont-figura
+    position: relative
+    img
+      max-width: 54px
+      min-width: 54px
+
+//slyders
+.slider-personalizado-1
+  .slyder-a__btn--sigt,.slyder-a__btn--atrs
+    background-color: $color-acento-botones
+    background-image: url(../assets/curso/temas/23.svg)
+  .slyder-a__bullets__item
+    opacity: 0.35
+    background-color: $color-acento-contenido
+    border: none !important
+    &--active
+      opacity: 1 !important

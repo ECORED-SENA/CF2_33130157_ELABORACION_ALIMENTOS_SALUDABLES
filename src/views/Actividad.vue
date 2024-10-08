@@ -15,52 +15,266 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Nombre del componente formativo',
+      tema: 'Alimentos funcionales y nutracéuticos.',
       titulo: 'Cuestionario',
-      introduccion: '<b> Objetivo:</b> Texto de Word',
+      introduccion:
+        'Identificar los conceptos clave relacionados con los alimentos funcionales, nutracéuticos y su regulación en Colombia.',
       barajarPreguntas: false,
       preguntas: [
         {
           id: 1,
-          texto:
-            'Texto pregunta 1 con <strong>Negrita</strong> <em>Itálica</em>.',
+          texto: '¿Cuál es el objetivo principal de los alimentos funcionales?',
           imagen: require('@/assets/componentes/pregunta_1.svg'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
-              texto: '<strong>Negrita</strong> <em>Itálica</em>',
+              texto: 'Mejorar el sabor de los alimentos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Aportar beneficios adicionales a la salud.',
               esCorrecta: true,
             },
-            { id: 'b', texto: 'Opción 2', esCorrecta: false },
-            { id: 'c', texto: 'Opción 3', esCorrecta: false },
-            { id: 'd', texto: 'Opción 4', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'Aumentar la producción agrícola.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir el costo de los alimentos.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
-          texto: 'Texto pregunta 2',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
-          barajarRespuestas: true,
+          texto:
+            '¿Qué sustancia se le adiciona al yogur en Colombia como fitoesterol?',
+          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: true },
-            { id: 'b', texto: 'Verdadero', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Omega 3.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Vitamina C.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Benecol.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Calcio.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 3,
-          texto: 'Texto pregunta 3',
-          imagen: require('@/assets/componentes/pregunta_3.png'),
+          texto: '¿Cuál es una característica de los nutracéuticos?',
+          imagen: require('@/assets/componentes/pregunta_1.svg'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Opción 1', esCorrecta: true },
-            { id: 'b', texto: 'Opción 2', esCorrecta: false },
-            { id: 'c', texto: 'Opción 3', esCorrecta: false },
-            { id: 'd', texto: 'Todas las anteriores', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Son completamente sintéticos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'No tienen beneficios para la salud.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Solo se encuentran en medicamentos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Son de origen natural y tienen propiedades terapéuticas.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Cuál de los siguientes es un ejemplo de un ácido graso presente en alimentos funcionales?',
+          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Vitamina C.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Omega 3.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Calcio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Sodio.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Qué tipo de alimentos se enriquecen para combatir deficiencias nutricionales?',
+          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Alimentos funcionales.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Alimentos ultraprocesados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Alimentos congelados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Alimentos deshidratados.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 6,
+          texto:
+            'Los alimentos funcionales solo se consumen para satisfacer las necesidades nutricionales mínimas.',
+          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 7,
+          texto:
+            'La innovación alimentaria busca mejorar tanto la productividad como la salud del consumidor.',
+          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 8,
+          texto:
+            'Los alimentos bajos en sodio contienen altas cantidades de potasio.',
+          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 9,
+          texto:
+            'Los productos nutracéuticos pueden ser considerados medicamentos.',
+          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 10,
+          texto:
+            '<b>La legislación colombiana permite la adición de vitaminas en productos dietéticos.<b/>',
+          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
