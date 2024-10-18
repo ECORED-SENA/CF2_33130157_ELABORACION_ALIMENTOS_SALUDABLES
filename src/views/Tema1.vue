@@ -95,7 +95,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/19.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 El término #[b "alimento funcional"] surgió en el medio oriente como una respuesta a la necesidad de definir un producto alimenticio que ofreciera beneficios adicionales para la salud. En la década de los ochenta, en Japón, las autoridades identificaron la importancia de desarrollar alimentos que mejoraran la calidad de vida de las personas de la tercera edad, con el objetivo de reducir el riesgo de enfermedades.
+        p.mb-0 El término #[b "alimento funcional"] surgió en el Medio Oriente como una respuesta a la necesidad de definir un producto alimenticio que ofreciera beneficios adicionales para la salud. En la década de los ochenta, en Japón, las autoridades identificaron la importancia de desarrollar alimentos que mejoraran la calidad de vida de las personas de la tercera edad, con el objetivo de reducir el riesgo de enfermedades.
     
     p.mb-4(data-aos="fade-up") La Academia Nacional de Ciencias de los Estados Unidos (NAS) define el alimento funcional como cualquier ingrediente o alimento que ofrezca beneficios superiores a los de los alimentos convencionales.
 
@@ -285,7 +285,7 @@
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/37.png",style="max-width: 400px;")
         
-        p.fw-bold.mb-5 Esta normativa define como alimentos o bebidas enriquecidos aquellos que contienen:
+        p.fw-bold.mb-5 Esta normativa define como alimentos o bebidas enriquesidas aquellos que contienen:
 
         .row.justify-content-center.mb-4
           .col-lg-3.pe-lg-0.align-content-center
@@ -319,7 +319,7 @@
             .col
               p.mb-0 Estos productos deben ser consumidos bajo supervisión médica adecuada, y su etiquetado debe reflejar con precisión sus componentes y el propósito de su uso, además de contar con la evidencia científica que respalde sus propiedades.
     
-    p.mb-5(data-aos="fade-right") También se consideran alimentos o bebidas enriquecidos aquellos productos a los que solo se les hayan añadido vitaminas A, D o C. Los alimentos o bebidas enriquecidos con vitaminas deben contener:
+    p.mb-5(data-aos="fade-right") También se consideran alimentos o bebidas enriquesidas aquellos productos a los que solo se les hayan añadido vitaminas A, D o C. Los alimentos o bebidas enriquesidas con vitaminas deben contener:
 
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-7.pe-lg-0
@@ -441,7 +441,7 @@
     
     .row.align-items-center
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
-        p.mb-0 Para reemplazar los carbohidratos, se pueden emplear edulcorantes como fructosa, manitol o sorbitol. En las etiquetas, debe especificarse "alimentos bajos en carbohidratos."
+        p.mb-0 Para reemplazar los carbohidratos, se pueden emplear edulcorantes como fructosa, manitol o sorbitol. En las etiquetas, debe especificarse "alimentos bajos en carbohidratos".
       .col-lg-4(data-aos="fade-left")
         figure
           img.mx-auto(src="@/assets/curso/temas/49.png",style="max-width: 400px;")

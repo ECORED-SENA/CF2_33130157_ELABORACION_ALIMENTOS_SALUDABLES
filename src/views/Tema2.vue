@@ -14,7 +14,7 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/SqlRrZ6Aj18?si=v8jmfLACguVHGzeZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video. Los nutracéuticos
     
-    p.fw-bold.mb-4(data-aos="fade-left") A continuación, se presenta algunos productos nutracéuticos utilizados en la medicina funcional:
+    p.fw-bold.mb-4(data-aos="fade-left") A continuación, se presentan algunos productos nutracéuticos utilizados en la medicina funcional:
 
     .fondo-personalizado-1.f7
       .fondo-personalizado-1__contenido.py-5
