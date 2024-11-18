@@ -99,7 +99,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/33130157_CF02_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -259,6 +259,21 @@ export default {
         {
           nombre: 'Edwin Sneider Velandia Suárez',
           cargo: 'Desarrollador <i>full stack</i>',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Alejandro Delgado Acosta ',
+          cargo: 'Intérprete lenguaje de señas ',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada ',
+          cargo: 'Animador y productor multimedia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'María Carolina Tamayo López ',
+          cargo: 'Locución ',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
