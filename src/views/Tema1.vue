@@ -130,7 +130,7 @@
     
     .fondo-personalizado-1.f4.mb-5
       .fondo-personalizado-1__contenido.pt-5
-        p.mb-4(data-aos="fade-right") El poder funcional de los alimentos tiene raíces antiguas, especialmente en la cultura oriental, donde se consideraban tan importantes como la medicina para curar enfermedades. En China, la relación entre alimentación y medicina es conocida desde el año 1000 a.C., y desde entonces, alimentos como el jengibre, el ajo y la menta se han utilizado por sus propiedades curativas.
+        p.mb-4(data-aos="fade-right") El poder funcional de los alimentos tiene raíces antiguas, especialmente en la cultura oriental, donde se consideraban tan importantes como la medicina para curar enfermedades. En China, la relación entre alimentación y medicina es conocida desde el año 1000 a. C., y desde entonces, alimentos como el jengibre, el ajo y la menta se han utilizado por sus propiedades curativas.
 
         p.fw-bold.mb-5(data-aos="fade-left") Los ejemplos históricos del uso de alimentos funcionales:
 
@@ -285,7 +285,7 @@
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/37.png",style="max-width: 400px;")
         
-        p.fw-bold.mb-5 Esta normativa define como alimentos o bebidas enriquesidas aquellos que contienen:
+        p.fw-bold.mb-5 Esta normativa define como alimentos o bebidas enriquecidas aquellos que contienen:
 
         .row.justify-content-center.mb-4
           .col-lg-3.pe-lg-0.align-content-center
@@ -319,7 +319,7 @@
             .col
               p.mb-0 Estos productos deben ser consumidos bajo supervisión médica adecuada, y su etiquetado debe reflejar con precisión sus componentes y el propósito de su uso, además de contar con la evidencia científica que respalde sus propiedades.
     
-    p.mb-5(data-aos="fade-right") También se consideran alimentos o bebidas enriquesidas aquellos productos a los que solo se les hayan añadido vitaminas A, D o C. Los alimentos o bebidas enriquesidas con vitaminas deben contener:
+    p.mb-5(data-aos="fade-right") También se consideran alimentos o bebidas enriquecidas aquellos productos a los que solo se les hayan añadido vitaminas A, D o C. Los alimentos o bebidas enriquecidas con vitaminas deben contener:
 
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-7.pe-lg-0

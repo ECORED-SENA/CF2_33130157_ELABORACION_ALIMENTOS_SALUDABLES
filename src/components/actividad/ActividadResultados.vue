@@ -28,7 +28,7 @@
           </p>
         </template>
         <template v-else>
-          <h3>VUELVE A INTENTARLO</h3>
+          <h3>VUELVA A INTENTARLO</h3>
           <p class="mb-0 text-center">
             Se recomienda revisar el contenido de la unidad para clarificar
             conceptos.
